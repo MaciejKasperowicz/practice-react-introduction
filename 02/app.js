@@ -2,13 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 const fnStyles = {
+    width: "50%",
+    padding: "20px",
     border: "1px solid blue",
-    color: "red"
+    color: "red",
+    margin: "20px auto"
 }
 
 const clStyles = {
+    width: "50%",
+    padding: "20px",
     border: "1px solid red",
-    color: "blue"
+    color: "blue",
+    margin: "20px auto"
 }
 const HeaderFn = () => (
     <h2
